@@ -320,8 +320,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     // Load du lieu cua tam hinh hien tai
     const image = images[index];
-    document.getElementById("current-image").src = "/res/images/" + image.src;
-    playAudio("/res/audios/" + image.title, "/res/audios/" + image.caption);
+    document.getElementById("current-image").src = "/chuan-de/res/images/" + image.src;
+    playAudio("/chuan-de/res/audios/" + image.title, "/chuan-de/res/audios/" + image.caption);
   }
 
   function playAudio(titleAudioSrc, captionAudioSrc) {
@@ -347,12 +347,12 @@ document.addEventListener("DOMContentLoaded", function () {
     currentTitleAudio.onerror = (e) => {
       titleAudioIsNull = true;
       console.error("Failed to load title audio: ", titleAudioSrc, e);
-      currentTitleAudio = new Audio("/res/audios/mute.mp3");
+      currentTitleAudio = new Audio("/chuan-de/res/audios/mute.mp3");
     };
     currentCaptionAudio.onerror = (e) => {
       captionAudioIsNull = true;
       console.error("Failed to load caption audio: ", captionAudioSrc, e);
-      currentCaptionAudio = new Audio("/res/audios/mute.mp3");
+      currentCaptionAudio = new Audio("/chuan-de/res/audios/mute.mp3");
     };
 
     let delayAfterTitle = 3 * 1000;
