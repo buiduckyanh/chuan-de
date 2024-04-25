@@ -20,7 +20,7 @@ const images = [
   {
     src: "00d.jpg",
     title: "00d.mp3",
-    caption: "00d-cap.mp3",
+    caption: "00d2-cap.mp3",
     details: "Details 00d",
   },
   {
@@ -355,8 +355,8 @@ document.addEventListener("DOMContentLoaded", function () {
       currentCaptionAudio = new Audio("/chuan-de/res/audios/mute.mp3");
     };
 
-    let delayAfterTitle = 3 * 1000;
-    let delayBetweenCaptions = 0.5 * 1000;
+    let delayAfterTitle = 1000;
+    let delayBetweenCaptions = 500;
 
     if (!firstTimeRunning) {
       if (!titleAudioIsNull) currentTitleAudio.play();
