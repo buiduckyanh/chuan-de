@@ -35,12 +35,12 @@ body, html {
 }
 
 button {
-    padding: 10px 20px; /* Điều chỉnh padding để thay đổi kích thước của nút */
+    padding: 5px 10px; /* Điều chỉnh padding để thay đổi kích thước của nút */
     font-size: 16px; /* Điều chỉnh kích thước chữ */
     cursor: pointer; /* Thêm hiệu ứng con trỏ khi di chuột qua nút */
 }
 
-#prev-button, #next-button, #play-pause-button {
+#prev-button, #next-button, #volume {
     flex-basis: 33%; /* Mỗi nút chiếm gần nửa chiều ngang của khung */
-    font-size: 20px; /* Kích thước chữ lớn hơn cho nút Back và Next */
+    font-size: 16px; /* Kích thước chữ lớn hơn cho nút Back và Next */
 }
