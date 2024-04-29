@@ -35,7 +35,7 @@ body, html {
 }
 
 button {
-    padding: 5px 10px; /* Điều chỉnh padding để thay đổi kích thước của nút */
+    padding: 10px 10px; /* Điều chỉnh padding để thay đổi kích thước của nút */
     font-size: 16px; /* Điều chỉnh kích thước chữ */
     cursor: pointer; /* Thêm hiệu ứng con trỏ khi di chuột qua nút */
 }
