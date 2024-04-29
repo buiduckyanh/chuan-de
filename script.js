@@ -18,12 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
   function clearCaptionRepeatTimeout() {
     // Hủy bất kỳ lệnh setTimeout nào đang tồn tại
     if (captionRepeatTimeout) {
-      console.log("clear caption Repeat Timeout");
+      // console.log("clear caption Repeat Timeout");
       clearTimeout(captionRepeatTimeout);
       captionRepeatTimeout = null;
     }
     if (titleNextPlayTimeout) {
-      console.log("clear caption Repeat Timeout");
+      // console.log("clear caption Repeat Timeout");
       clearTimeout(titleNextPlayTimeout);
       titleNextPlayTimeout = null;
     }
